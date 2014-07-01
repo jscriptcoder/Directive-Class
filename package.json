@@ -1,0 +1,15 @@
+{
+  "name": "DirectiveClass",
+  "version": "0.1.0",
+  "description": "Example of a directive using a TypeScript class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jscriptcoder <jscriptcoder@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.8.5",
+    "gulp-tsc": "~0.9.1"
+  }
+}

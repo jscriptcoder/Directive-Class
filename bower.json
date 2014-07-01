@@ -1,0 +1,20 @@
+{
+  "name": "Directive Class",
+  "version": "0.1.0",
+  "authors": [
+    "jscriptcoder <jscriptcoder@gmail.com>"
+  ],
+  "description": "Example of a directive using a TypeScript class",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.18",
+    "requirejs": "~2.1.14"
+  }
+}
