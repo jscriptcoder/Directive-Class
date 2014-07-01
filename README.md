@@ -3,7 +3,7 @@ Personal approach to create AngularJS directives using TypeScript classes
 
 ## Approach
 
-> Class helper
+> Class helper:
 
 ```typescript
 class DirectiveBase implements ng.IDirective {
@@ -25,7 +25,7 @@ class DirectiveBase implements ng.IDirective {
 }
 ```
 
-> Directive class
+> Directive class:
 
 ```typescript
 class MyDirective extends DirectiveBase {
@@ -61,4 +61,10 @@ class MyDirective extends DirectiveBase {
     //====== End directive definition ======//
     
 }
+```
+
+> Directive registration:
+
+```typescript
+angular.module('MyApp').directive('myDirective', MyDirective.factory);
 ```
